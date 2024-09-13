@@ -129,15 +129,17 @@
         import { getFirestore, collection, addDoc, onSnapshot, orderBy, query } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js";
 
         // Firebase config
-        const firebaseConfig = {
-            apiKey: "AIzaSyBqol7KbGT5p7ppA9z1zu0d7YiIxkaEm1Q",
-            authDomain: "sample-309eb.firebaseapp.com",
-            projectId: "sample-309eb",
-            storageBucket: "sample-309eb.appspot.com",
-            messagingSenderId: "971052026993",
-            appId: "1:971052026993:web:b2224b762eb9dc47105fd0",
-            measurementId: "G-WQ2PW6FFQE"
-        };
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBH8lsjNhlpAqKgoWaAne4TPuOiTSZvRN4",
+  authDomain: "class1-adfce.firebaseapp.com",
+  databaseURL: "https://class1-adfce-default-rtdb.firebaseio.com",
+  projectId: "class1-adfce",
+  storageBucket: "class1-adfce.appspot.com",
+  messagingSenderId: "254973409128",
+  appId: "1:254973409128:web:8f4f9e6aecf2a4ff97c8dd",
+  measurementId: "G-29MN2TNYEX"
+};
 
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
